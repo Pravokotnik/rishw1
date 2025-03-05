@@ -209,6 +209,11 @@ CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator
  /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
  /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.h \
+ /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/custom_message__type_support.h \
+ /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/custom_message__struct.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/custom_message__functions.h \
  /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.h \
  /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__struct.h \
  /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.h

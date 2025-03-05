@@ -71,6 +71,7 @@ CMakeFiles/tutorial_interfaces: /home/masa/Desktop/sola/ris/hw1/ros2_ws/src/tuto
 CMakeFiles/tutorial_interfaces: /home/masa/Desktop/sola/ris/hw1/ros2_ws/src/tutorial_interfaces/srv/AddThreeInts.srv
 CMakeFiles/tutorial_interfaces: rosidl_cmake/srv/AddThreeInts_Request.msg
 CMakeFiles/tutorial_interfaces: rosidl_cmake/srv/AddThreeInts_Response.msg
+CMakeFiles/tutorial_interfaces: /home/masa/Desktop/sola/ris/hw1/ros2_ws/src/tutorial_interfaces/msg/CustomMessage.msg
 CMakeFiles/tutorial_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/tutorial_interfaces: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/tutorial_interfaces: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl

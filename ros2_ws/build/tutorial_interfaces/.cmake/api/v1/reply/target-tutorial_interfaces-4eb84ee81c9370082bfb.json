@@ -230,14 +230,15 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				6
+				7
 			]
 		}
 	],
@@ -266,6 +267,11 @@
 		{
 			"backtrace" : 2,
 			"path" : "/home/masa/Desktop/sola/ris/hw1/ros2_ws/build/tutorial_interfaces/rosidl_cmake/srv/AddThreeInts_Response.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "msg/CustomMessage.msg",
 			"sourceGroupIndex" : 0
 		},
 		{

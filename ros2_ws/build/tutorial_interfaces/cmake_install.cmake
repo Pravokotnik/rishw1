@@ -368,6 +368,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_interfaces/msg" TYPE FILE FILES "/home/masa/Desktop/sola/ris/hw1/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/CustomMessage.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_interfaces/msg" TYPE FILE FILES "/home/masa/Desktop/sola/ris/hw1/ros2_ws/src/tutorial_interfaces/msg/Num.msg")
 endif()
 
@@ -385,6 +389,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_interfaces/srv" TYPE FILE FILES "/home/masa/Desktop/sola/ris/hw1/ros2_ws/build/tutorial_interfaces/rosidl_cmake/srv/AddThreeInts_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_interfaces/msg" TYPE FILE FILES "/home/masa/Desktop/sola/ris/hw1/ros2_ws/src/tutorial_interfaces/msg/CustomMessage.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

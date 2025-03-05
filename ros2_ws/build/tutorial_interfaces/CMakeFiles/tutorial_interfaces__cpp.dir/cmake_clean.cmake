@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tutorial_interfaces__cpp"
+  "rosidl_generator_cpp/tutorial_interfaces/msg/custom_message.hpp"
+  "rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__builder.hpp"
+  "rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__struct.hpp"
+  "rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__traits.hpp"
+  "rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__type_support.hpp"
   "rosidl_generator_cpp/tutorial_interfaces/msg/detail/num__builder.hpp"
   "rosidl_generator_cpp/tutorial_interfaces/msg/detail/num__struct.hpp"
   "rosidl_generator_cpp/tutorial_interfaces/msg/detail/num__traits.hpp"

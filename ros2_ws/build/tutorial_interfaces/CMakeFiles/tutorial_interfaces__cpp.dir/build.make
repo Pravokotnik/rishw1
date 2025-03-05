@@ -81,6 +81,11 @@ CMakeFiles/tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/sr
 CMakeFiles/tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
 CMakeFiles/tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
 CMakeFiles/tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp
+CMakeFiles/tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/custom_message.hpp
+CMakeFiles/tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__builder.hpp
+CMakeFiles/tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__struct.hpp
+CMakeFiles/tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__traits.hpp
+CMakeFiles/tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__type_support.hpp
 CMakeFiles/tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -101,6 +106,7 @@ rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp: /opt/ros/humble/share/rosi
 rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp: rosidl_adapter/tutorial_interfaces/msg/Num.idl
 rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp: rosidl_adapter/tutorial_interfaces/msg/Sphere.idl
 rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp: rosidl_adapter/tutorial_interfaces/srv/AddThreeInts.idl
+rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp: rosidl_adapter/tutorial_interfaces/msg/CustomMessage.idl
 rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -206,7 +212,27 @@ rosidl_generator_cpp/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp: 
 rosidl_generator_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp: rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp
 
+rosidl_generator_cpp/tutorial_interfaces/msg/custom_message.hpp: rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tutorial_interfaces/msg/custom_message.hpp
+
+rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__builder.hpp: rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__builder.hpp
+
+rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__struct.hpp: rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__struct.hpp
+
+rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__traits.hpp: rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__traits.hpp
+
+rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__type_support.hpp: rosidl_generator_cpp/tutorial_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__type_support.hpp
+
 tutorial_interfaces__cpp: CMakeFiles/tutorial_interfaces__cpp
+tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/custom_message.hpp
+tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__builder.hpp
+tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__struct.hpp
+tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__traits.hpp
+tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/detail/custom_message__type_support.hpp
 tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/detail/num__builder.hpp
 tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/detail/num__struct.hpp
 tutorial_interfaces__cpp: rosidl_generator_cpp/tutorial_interfaces/msg/detail/num__traits.hpp
