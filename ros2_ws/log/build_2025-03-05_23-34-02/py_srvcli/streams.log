@@ -1,0 +1,42 @@
+[0.432s] Invoking command in '/home/masa/Desktop/sola/ris/hw1/ros2_ws/src/py_srvcli': PYTHONPATH=/home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/build install --record /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[0.600s] running egg_info
+[0.600s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[0.600s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.601s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.601s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.601s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.601s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.601s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.602s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.602s] adding license file 'LICENSE'
+[0.603s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.603s] running build
+[0.603s] running build_py
+[0.603s] creating /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/build
+[0.603s] creating /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/build/lib
+[0.603s] creating /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.603s] copying py_srvcli/__init__.py -> /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.603s] copying py_srvcli/client_member_function.py -> /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.603s] copying py_srvcli/service_member_function.py -> /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.603s] running install
+[0.603s] running install_lib
+[0.604s] creating /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.604s] copying /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.604s] copying /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.604s] copying /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.605s] byte-compiling /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[0.605s] byte-compiling /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[0.605s] byte-compiling /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[0.605s] running install_data
+[0.606s] creating /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/share/ament_index
+[0.606s] creating /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/share/ament_index/resource_index
+[0.606s] creating /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.606s] copying resource/py_srvcli -> /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.606s] copying package.xml -> /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/share/py_srvcli
+[0.606s] running install_egg_info
+[0.607s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.608s] running install_scripts
+[0.624s] Installing client script to /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.624s] Installing service script to /home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.624s] writing list of installed files to '/home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/install.log'
+[0.650s] Invoked command in '/home/masa/Desktop/sola/ris/hw1/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masa/Desktop/sola/ris/hw1/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/build install --record /home/masa/Desktop/sola/ris/hw1/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
