@@ -2,6 +2,7 @@ from tutorial_interfaces.srv import AddThreeInts                            # CH
 import sys
 import rclpy
 from rclpy.node import Node
+import random
 
 
 class MinimalClientAsync(Node):
@@ -13,10 +14,28 @@ class MinimalClientAsync(Node):
             self.get_logger().info('service not available, waiting again...')
         self.req = AddThreeInts.Request()                                   # CHANGE
 
+    def generate_random_sequence(self):
+        return [random.randint(0, 100) for _ in range(10)]
+
     def send_request(self):
-        self.req.a = int(sys.argv[1])
-        self.req.b = int(sys.argv[2])
-        self.req.c = int(sys.argv[3])                                       # CHANGE
+        random_sequence = self.generate_random_sequence()
+
+        self.req.a = random_sequence[0]
+        self.req.b = random_sequence[1]
+        self.req.c = random_sequence[2]
+        self.req.d = random_sequence[3]
+        self.req.e = random_sequence[4]
+        self.req.f = random_sequence[5]
+        self.req.g = random_sequence[6]
+        self.req.h = random_sequence[7]
+        self.req.i = random_sequence[8]
+        self.req.j = random_sequence[9]
+
+        self.get_logger().info(
+            f'Sending request: {self.req.a}, {self.req.b}, {self.req.c}, {self.req.d}, {self.req.e}, '
+            f'{self.req.f}, {self.req.g}, {self.req.h}, {self.req.i}, {self.req.j}'
+        )
+
         self.future = self.cli.call_async(self.req)
 
 
@@ -36,8 +55,8 @@ def main(args=None):
                     'Service call failed %r' % (e,))
             else:
                 minimal_client.get_logger().info(
-                    'Result of add_three_ints: for %d + %d + %d = %d' %                                # CHANGE
-                    (minimal_client.req.a, minimal_client.req.b, minimal_client.req.c, response.sum))  # CHANGE
+                    'Result of add_three_ints: for %d + %d + %d + %d + %d + %d + %d + %d + %d + %d = %d' %
+                    (minimal_client.req.a, minimal_client.req.b, minimal_client.req.c, minimal_client.req.d, minimal_client.req.e, minimal_client.req.f, minimal_client.req.g, minimal_client.req.h, minimal_client.req.i, minimal_client.req.j, response.sum))
             break
 
     minimal_client.destroy_node()

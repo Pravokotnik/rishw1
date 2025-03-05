@@ -11,6 +11,20 @@ module tutorial_interfaces {
       int64 b;
 
       int64 c;
+
+      int64 d;
+
+      int64 e;
+
+      int64 f;
+
+      int64 g;
+
+      int64 h;
+
+      int64 i;
+
+      int64 j;
     };
     struct AddThreeInts_Response {
       int64 sum;

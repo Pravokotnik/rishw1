@@ -19,6 +19,13 @@ tutorial_interfaces__srv__AddThreeInts_Request__init(tutorial_interfaces__srv__A
   // a
   // b
   // c
+  // d
+  // e
+  // f
+  // g
+  // h
+  // i
+  // j
   return true;
 }
 
@@ -31,6 +38,13 @@ tutorial_interfaces__srv__AddThreeInts_Request__fini(tutorial_interfaces__srv__A
   // a
   // b
   // c
+  // d
+  // e
+  // f
+  // g
+  // h
+  // i
+  // j
 }
 
 bool
@@ -51,6 +65,34 @@ tutorial_interfaces__srv__AddThreeInts_Request__are_equal(const tutorial_interfa
   if (lhs->c != rhs->c) {
     return false;
   }
+  // d
+  if (lhs->d != rhs->d) {
+    return false;
+  }
+  // e
+  if (lhs->e != rhs->e) {
+    return false;
+  }
+  // f
+  if (lhs->f != rhs->f) {
+    return false;
+  }
+  // g
+  if (lhs->g != rhs->g) {
+    return false;
+  }
+  // h
+  if (lhs->h != rhs->h) {
+    return false;
+  }
+  // i
+  if (lhs->i != rhs->i) {
+    return false;
+  }
+  // j
+  if (lhs->j != rhs->j) {
+    return false;
+  }
   return true;
 }
 
@@ -68,6 +110,20 @@ tutorial_interfaces__srv__AddThreeInts_Request__copy(
   output->b = input->b;
   // c
   output->c = input->c;
+  // d
+  output->d = input->d;
+  // e
+  output->e = input->e;
+  // f
+  output->f = input->f;
+  // g
+  output->g = input->g;
+  // h
+  output->h = input->h;
+  // i
+  output->i = input->i;
+  // j
+  output->j = input->j;
   return true;
 }
 

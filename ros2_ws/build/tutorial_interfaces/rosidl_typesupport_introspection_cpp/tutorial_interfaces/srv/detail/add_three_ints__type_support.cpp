@@ -37,7 +37,7 @@ void AddThreeInts_Request_fini_function(void * message_memory)
   typed_message->~AddThreeInts_Request();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember AddThreeInts_Request_message_member_array[3] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember AddThreeInts_Request_message_member_array[10] = {
   {
     "a",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
@@ -88,13 +88,132 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember AddThreeInts_
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "d",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces::srv::AddThreeInts_Request, d),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "e",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces::srv::AddThreeInts_Request, e),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "f",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces::srv::AddThreeInts_Request, f),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "g",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces::srv::AddThreeInts_Request, g),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "h",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces::srv::AddThreeInts_Request, h),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "i",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces::srv::AddThreeInts_Request, i),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "j",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces::srv::AddThreeInts_Request, j),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers AddThreeInts_Request_message_members = {
   "tutorial_interfaces::srv",  // message namespace
   "AddThreeInts_Request",  // message name
-  3,  // number of fields
+  10,  // number of fields
   sizeof(tutorial_interfaces::srv::AddThreeInts_Request),
   AddThreeInts_Request_message_member_array,  // message members
   AddThreeInts_Request_init_function,  // function to initialize message memory (memory has to be allocated)

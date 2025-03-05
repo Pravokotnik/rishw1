@@ -64,6 +64,41 @@ static bool _AddThreeInts_Request__cdr_serialize(
     cdr << ros_message->c;
   }
 
+  // Field name: d
+  {
+    cdr << ros_message->d;
+  }
+
+  // Field name: e
+  {
+    cdr << ros_message->e;
+  }
+
+  // Field name: f
+  {
+    cdr << ros_message->f;
+  }
+
+  // Field name: g
+  {
+    cdr << ros_message->g;
+  }
+
+  // Field name: h
+  {
+    cdr << ros_message->h;
+  }
+
+  // Field name: i
+  {
+    cdr << ros_message->i;
+  }
+
+  // Field name: j
+  {
+    cdr << ros_message->j;
+  }
+
   return true;
 }
 
@@ -89,6 +124,41 @@ static bool _AddThreeInts_Request__cdr_deserialize(
   // Field name: c
   {
     cdr >> ros_message->c;
+  }
+
+  // Field name: d
+  {
+    cdr >> ros_message->d;
+  }
+
+  // Field name: e
+  {
+    cdr >> ros_message->e;
+  }
+
+  // Field name: f
+  {
+    cdr >> ros_message->f;
+  }
+
+  // Field name: g
+  {
+    cdr >> ros_message->g;
+  }
+
+  // Field name: h
+  {
+    cdr >> ros_message->h;
+  }
+
+  // Field name: i
+  {
+    cdr >> ros_message->i;
+  }
+
+  // Field name: j
+  {
+    cdr >> ros_message->j;
   }
 
   return true;
@@ -123,6 +193,48 @@ size_t get_serialized_size_tutorial_interfaces__srv__AddThreeInts_Request(
   // field.name c
   {
     size_t item_size = sizeof(ros_message->c);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name d
+  {
+    size_t item_size = sizeof(ros_message->d);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name e
+  {
+    size_t item_size = sizeof(ros_message->e);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name f
+  {
+    size_t item_size = sizeof(ros_message->f);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name g
+  {
+    size_t item_size = sizeof(ros_message->g);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name h
+  {
+    size_t item_size = sizeof(ros_message->h);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name i
+  {
+    size_t item_size = sizeof(ros_message->i);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name j
+  {
+    size_t item_size = sizeof(ros_message->j);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -179,6 +291,62 @@ size_t max_serialized_size_tutorial_interfaces__srv__AddThreeInts_Request(
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
+  // member: d
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: e
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: f
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: g
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: h
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: i
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: j
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -188,7 +356,7 @@ size_t max_serialized_size_tutorial_interfaces__srv__AddThreeInts_Request(
     using DataType = tutorial_interfaces__srv__AddThreeInts_Request;
     is_plain =
       (
-      offsetof(DataType, c) +
+      offsetof(DataType, j) +
       last_member_size
       ) == ret_val;
   }

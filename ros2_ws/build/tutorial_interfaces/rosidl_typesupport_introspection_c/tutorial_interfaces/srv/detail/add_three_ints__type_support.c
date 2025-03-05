@@ -31,7 +31,7 @@ void tutorial_interfaces__srv__AddThreeInts_Request__rosidl_typesupport_introspe
   tutorial_interfaces__srv__AddThreeInts_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember tutorial_interfaces__srv__AddThreeInts_Request__rosidl_typesupport_introspection_c__AddThreeInts_Request_message_member_array[3] = {
+static rosidl_typesupport_introspection_c__MessageMember tutorial_interfaces__srv__AddThreeInts_Request__rosidl_typesupport_introspection_c__AddThreeInts_Request_message_member_array[10] = {
   {
     "a",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
@@ -82,13 +82,132 @@ static rosidl_typesupport_introspection_c__MessageMember tutorial_interfaces__sr
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "d",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces__srv__AddThreeInts_Request, d),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "e",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces__srv__AddThreeInts_Request, e),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "f",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces__srv__AddThreeInts_Request, f),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "g",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces__srv__AddThreeInts_Request, g),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "h",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces__srv__AddThreeInts_Request, h),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "i",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces__srv__AddThreeInts_Request, i),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "j",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tutorial_interfaces__srv__AddThreeInts_Request, j),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers tutorial_interfaces__srv__AddThreeInts_Request__rosidl_typesupport_introspection_c__AddThreeInts_Request_message_members = {
   "tutorial_interfaces__srv",  // message namespace
   "AddThreeInts_Request",  // message name
-  3,  // number of fields
+  10,  // number of fields
   sizeof(tutorial_interfaces__srv__AddThreeInts_Request),
   tutorial_interfaces__srv__AddThreeInts_Request__rosidl_typesupport_introspection_c__AddThreeInts_Request_message_member_array,  // message members
   tutorial_interfaces__srv__AddThreeInts_Request__rosidl_typesupport_introspection_c__AddThreeInts_Request_init_function,  // function to initialize message memory (memory has to be allocated)

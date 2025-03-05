@@ -41,6 +41,13 @@ struct AddThreeInts_Request_
       this->a = 0ll;
       this->b = 0ll;
       this->c = 0ll;
+      this->d = 0ll;
+      this->e = 0ll;
+      this->f = 0ll;
+      this->g = 0ll;
+      this->h = 0ll;
+      this->i = 0ll;
+      this->j = 0ll;
     }
   }
 
@@ -53,6 +60,13 @@ struct AddThreeInts_Request_
       this->a = 0ll;
       this->b = 0ll;
       this->c = 0ll;
+      this->d = 0ll;
+      this->e = 0ll;
+      this->f = 0ll;
+      this->g = 0ll;
+      this->h = 0ll;
+      this->i = 0ll;
+      this->j = 0ll;
     }
   }
 
@@ -66,6 +80,27 @@ struct AddThreeInts_Request_
   using _c_type =
     int64_t;
   _c_type c;
+  using _d_type =
+    int64_t;
+  _d_type d;
+  using _e_type =
+    int64_t;
+  _e_type e;
+  using _f_type =
+    int64_t;
+  _f_type f;
+  using _g_type =
+    int64_t;
+  _g_type g;
+  using _h_type =
+    int64_t;
+  _h_type h;
+  using _i_type =
+    int64_t;
+  _i_type i;
+  using _j_type =
+    int64_t;
+  _j_type j;
 
   // setters for named parameter idiom
   Type & set__a(
@@ -84,6 +119,48 @@ struct AddThreeInts_Request_
     const int64_t & _arg)
   {
     this->c = _arg;
+    return *this;
+  }
+  Type & set__d(
+    const int64_t & _arg)
+  {
+    this->d = _arg;
+    return *this;
+  }
+  Type & set__e(
+    const int64_t & _arg)
+  {
+    this->e = _arg;
+    return *this;
+  }
+  Type & set__f(
+    const int64_t & _arg)
+  {
+    this->f = _arg;
+    return *this;
+  }
+  Type & set__g(
+    const int64_t & _arg)
+  {
+    this->g = _arg;
+    return *this;
+  }
+  Type & set__h(
+    const int64_t & _arg)
+  {
+    this->h = _arg;
+    return *this;
+  }
+  Type & set__i(
+    const int64_t & _arg)
+  {
+    this->i = _arg;
+    return *this;
+  }
+  Type & set__j(
+    const int64_t & _arg)
+  {
+    this->j = _arg;
     return *this;
   }
 
@@ -136,6 +213,27 @@ struct AddThreeInts_Request_
       return false;
     }
     if (this->c != other.c) {
+      return false;
+    }
+    if (this->d != other.d) {
+      return false;
+    }
+    if (this->e != other.e) {
+      return false;
+    }
+    if (this->f != other.f) {
+      return false;
+    }
+    if (this->g != other.g) {
+      return false;
+    }
+    if (this->h != other.h) {
+      return false;
+    }
+    if (this->i != other.i) {
+      return false;
+    }
+    if (this->j != other.j) {
       return false;
     }
     return true;

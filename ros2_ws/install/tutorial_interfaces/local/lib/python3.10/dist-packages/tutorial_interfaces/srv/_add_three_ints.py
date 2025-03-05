@@ -58,15 +58,36 @@ class AddThreeInts_Request(metaclass=Metaclass_AddThreeInts_Request):
         '_a',
         '_b',
         '_c',
+        '_d',
+        '_e',
+        '_f',
+        '_g',
+        '_h',
+        '_i',
+        '_j',
     ]
 
     _fields_and_field_types = {
         'a': 'int64',
         'b': 'int64',
         'c': 'int64',
+        'd': 'int64',
+        'e': 'int64',
+        'f': 'int64',
+        'g': 'int64',
+        'h': 'int64',
+        'i': 'int64',
+        'j': 'int64',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
         rosidl_parser.definition.BasicType('int64'),  # noqa: E501
         rosidl_parser.definition.BasicType('int64'),  # noqa: E501
         rosidl_parser.definition.BasicType('int64'),  # noqa: E501
@@ -79,6 +100,13 @@ class AddThreeInts_Request(metaclass=Metaclass_AddThreeInts_Request):
         self.a = kwargs.get('a', int())
         self.b = kwargs.get('b', int())
         self.c = kwargs.get('c', int())
+        self.d = kwargs.get('d', int())
+        self.e = kwargs.get('e', int())
+        self.f = kwargs.get('f', int())
+        self.g = kwargs.get('g', int())
+        self.h = kwargs.get('h', int())
+        self.i = kwargs.get('i', int())
+        self.j = kwargs.get('j', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -114,6 +142,20 @@ class AddThreeInts_Request(metaclass=Metaclass_AddThreeInts_Request):
         if self.b != other.b:
             return False
         if self.c != other.c:
+            return False
+        if self.d != other.d:
+            return False
+        if self.e != other.e:
+            return False
+        if self.f != other.f:
+            return False
+        if self.g != other.g:
+            return False
+        if self.h != other.h:
+            return False
+        if self.i != other.i:
+            return False
+        if self.j != other.j:
             return False
         return True
 
@@ -166,6 +208,111 @@ class AddThreeInts_Request(metaclass=Metaclass_AddThreeInts_Request):
             assert value >= -9223372036854775808 and value < 9223372036854775808, \
                 "The 'c' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._c = value
+
+    @builtins.property
+    def d(self):
+        """Message field 'd'."""
+        return self._d
+
+    @d.setter
+    def d(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'd' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'd' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._d = value
+
+    @builtins.property
+    def e(self):
+        """Message field 'e'."""
+        return self._e
+
+    @e.setter
+    def e(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'e' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'e' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._e = value
+
+    @builtins.property
+    def f(self):
+        """Message field 'f'."""
+        return self._f
+
+    @f.setter
+    def f(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'f' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'f' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._f = value
+
+    @builtins.property
+    def g(self):
+        """Message field 'g'."""
+        return self._g
+
+    @g.setter
+    def g(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'g' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'g' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._g = value
+
+    @builtins.property
+    def h(self):
+        """Message field 'h'."""
+        return self._h
+
+    @h.setter
+    def h(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'h' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'h' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._h = value
+
+    @builtins.property
+    def i(self):
+        """Message field 'i'."""
+        return self._i
+
+    @i.setter
+    def i(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'i' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'i' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._i = value
+
+    @builtins.property
+    def j(self):
+        """Message field 'j'."""
+        return self._j
+
+    @j.setter
+    def j(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'j' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'j' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._j = value
 
 
 # Import statements for member types
